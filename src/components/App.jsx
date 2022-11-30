@@ -7,9 +7,9 @@ import { Filter } from './Filter/Filter';
 export function App() {
   return (
     <Wrapper className="Reviews">
-      {/* <Section title={'Phonebook'}> */}
-      {/* <ContactForm /> */}
-      {/* </Section> */}
+      <Section title={'Phonebook'}>
+        <ContactForm />
+      </Section>
 
       <Section title={'Contacts'}>
         <Filter />
